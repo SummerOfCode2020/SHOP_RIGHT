@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Roboto', sans-serif;
+ }
+body {
+  background-image:url('./images/adidas.jpg');
+}
 .App {
   text-align: center;
 }
@@ -35,4 +46,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.products {
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+
+.products img {
+width: 60%;
+}
+.product {
+  padding: 20px;
+}
+button {
+  font-size: 20px;
+  padding: 10px;
+}
+header {
+  background-image: url('./images/cement\ copy.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  height: 400px;
+  padding-top: 20px;
 }
